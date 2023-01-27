@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int n1 = 0;
+	int n2 = 0;
+	int n3 = 0;
+	int n4 = 0;
+
+	do
+	{
+		do
+		{
+			do
+			{
+				do
+				{
+					
+					cout << n1 << n2 << n3 << n4 << endl;
+					n4 -= -1;
+
+				} while (n4!=10);
+
+				n4 = 0;
+				n3 -= -1;
+			
+			} while (n3!=10);
+
+			n3 = 0;
+			n2 -= -1;
+		
+		} while (n2!=10);
+		
+		n2 = 0;
+		n1 -= -1;
+
+	} while (n1!=10);
+
+
+  exit(-1);
+}
