@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+int main() 
+{
+	int num = 0;
+	int degr = 0;
+	cout << "How many values are in your password" << endl;
+	cin >> degr;
+	do
+	{
+		cout << num << endl;
+		num -= -1;
+	} while (num!= pow (10, degr));
+	return 0;
+}
